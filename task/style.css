@@ -1,0 +1,86 @@
+.salam{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+    text-shadow:2px 5px 5px rgb(0, 0, 0) ;
+    border: 3px solid black;
+    border-radius: 2em;
+    width: 50%;
+    margin: auto;
+}
+body{
+    background-color: blueviolet;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-image: url(pngimg.com\ -\ cat_PNG50447.png);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 1em;
+    margin: 0;
+}
+#siyahi{
+    list-style: none;
+    text-align: center;
+}
+#siyahi li{
+    display: inline-block;
+    width: 19%;
+}
+#siyahi li a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(98, 0, 255);
+    line-height: 0;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+    white-space: nowrap;
+}
+#siyahi li a:hover{
+    background-color: aqua;
+    color: green;
+}
+ul{
+    list-style-type: '✔';
+}
+img{
+    width: 600px;
+    border: 5px solid orange;
+    padding: 10px;
+    float: left;
+    background-color: aliceblue;
+    margin:0 10px 5px 10px;
+    border-radius: 50% ;
+    shape-outside:circle(80%);
+    object-fit: cover;
+    box-shadow: 1px 3px 5px;
+}
+p{
+    background-color: #333;
+    background: rgba(255,255 ,255 ,0.3 );
+
+}
+table{
+border-collapse: collapse;
+font: .9em Arial, sans-serif;
+margin: auto;
+}
+td, th{
+    border: 1px solid #333;
+    padding: 10px 50px;
+}
+th{
+    background-color: #ffa50080;
+    color: white;
+}
